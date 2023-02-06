@@ -1,0 +1,327 @@
+
+* {
+box-sizing:border-box ;
+margin: 0%;
+padding: 0%;
+}
+
+/* GENERALES: TITULOS, ENLACES PÁRRAFOS */
+
+h1 {
+    display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+    font-size:3rem ;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    padding: 2%;
+    font-family: 'Mate SC', serif;
+    width: 100%;
+    }
+
+h2 {
+    font-size:2rem ;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    }
+
+
+h3 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    }
+
+h4 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    }
+
+p{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    padding: 2%;
+    }
+
+a {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;  
+}
+
+body {
+    background-color: pink;
+    font-family: 'Kanit', sans-serif;
+    }
+
+
+/* HEADER */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top:0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #BBA1C4; 
+    max-width: 100%;
+    }
+
+    
+    nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    }
+    
+    
+    nav ul li{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 20px;
+    background-color: pink;
+    font-style: 1rem ;
+    font-weight: bold;
+    max-width: 100%;
+    }
+
+section {
+    height: 90vh;
+    }
+
+/* SECCION SOBRE MÍ  */
+section#Presentacion {
+    background-color: lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    font-weight: 500;
+    max-width: 100%;
+    height: 100%;
+    }
+
+section#Presentacion h1 {
+justify-content: right;
+justify-content: bottom;
+font-size:4rem;
+    }
+
+section#Presentacion h2 {
+    justify-content: bottom right;
+    }
+
+section#Presentacion p {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    padding: 10px;
+    font­-size: 0.10rem;
+    text-align:center;
+    margin-top: 5px;
+    background: rgba(245, 210, 229, 0.158)  
+
+}
+
+
+img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border-image:none;
+            float: left;
+            object-fit: cover;
+            margin-right: 5px;
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+section#Presentacion h2 h3 {
+    display: flex; 
+    flex-direction: column;   
+    float: right
+}
+
+    
+section#Presentacion button{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+   margin-top: 40px;
+   padding: 10px;
+   background-color: pink;
+   border-color:  #BBA1C4;
+   font-size: 15px;
+   font-weight: bold;
+   float:flex-start;
+}
+
+/* SECCION: FORMACIÓN ACADÉMICA */
+section#Formación_Académica{
+    display: flex; 
+    flex-direction:center;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:plum;
+    height: 100%;
+    padding-bottom:20px;
+    align-items: center;
+}
+
+.Maestría {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font­-size: 0.10rem;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background: rgba(236, 226, 235, 0.158)  
+}
+
+.Universitario{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap; 
+justify-content:space-between;
+align-items: center;
+border-radius: 80px;
+padding-top: 20px;
+padding-bottom: 20px;
+font­-size: 0.10rem;
+text-align:center;
+margin-top: 30px;
+margin-bottom: 30px;
+background: rgba(236, 226, 235, 0.158)  
+}
+
+.Secundario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font­-size: 0.10rem;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background: rgba(236, 226, 235, 0.158)  
+    }
+
+
+section#Formación_Académica a{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   margin-top: 10px;
+   font-size: 15px;
+   font-weight: bold;
+   float:center;
+}
+
+
+
+/* SECCION EXPERIENCIA */
+section#Experiencia {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 15px;
+    background-color: peachpuff;
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+}
+
+div.Freelance {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    padding: 10px;
+    font­-size: 0.10rem;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(247, 241, 244, 0.596)
+}
+
+div.Cooperativa_Apícola {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    padding: 10px;
+    font­-size: 0.10rem;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(247, 241, 244, 0.596) 
+}
+
+div.Clases_particulares {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    padding: 10px;
+    font­-size: 0.10rem;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(247, 241, 244, 0.596) 
+}
+
+
+
+
+/* SECCIÓN CONTACTO */
+section#Contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 100%;
+}
+
+
+section#Contacto form{ 
+border: 100% solid #BBA1C4; 
+display:block;
+flex-wrap:wrap
+justify-content:center;
+width: 100%;
+font-family: 'Kanit', sans-serif;
+}
+

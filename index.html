@@ -1,3 +1,5 @@
+HTML proyecto integrador
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,8 +7,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:wght@300&family=Mate+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
+
+    <header>
+        <nav>
+            <div class="wrap">
+                <ul class="tabs">
+                    <li><a href="#tab1"><span class="tab-text">Sobre mí</span></a></li>
+                    <li><a href="#tab2"><span class="tab-text">Formación Académica</span></a></li>
+                    <li><a href="#tab3"></span><span class="tab-text">Experiencia Laboral</span></a></li>
+                    <li><a href="#tab4"></span><span class="tab-text">Contacto</span></a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="Presentacion">
+            <article id="tab1">
+            
+            <h1>MARLOES DE VRIES</h1>
+            
+            <img src="https://img.freepik.com/foto-gratis/libro-explotacion-mujer-sonriente-vista-lateral_23-2149915886.jpg?w=360&t=st=1674602794~exp=1674603394~hmac=1ef051be4b145df4e6cf745dc202f517c84bf0933bbd1a1b6acd53a13341916b" alt="CV">
+            
+            <h2>Sobre mí</h2>
+            
+            <div class="contenedor">
+            
+            <p>
+            ¡Hola! Mi nombre es Marloe, gusto en conocerte. <br/>
+            En esta página vas a poder conocer un poco sobre mí:<br/>
+            Soy ilustradora profesional, me recibí en Bahía Blanca en el año 2020.<br/>
+            Desde los cuatro años supe que quería ser artista; ya que el dibujar me ofrecía la libertad de crear nuevos mundos a través del juego<br/>
+            Es por eso que ¡Amo darle vida a sus proyectos!
+              </p>
+              
+            <button type="button" id="Conoce_mas" onclick="Funcion();">Mira mi portfolio</button>
+            <script src="js/Boton_conocemas1.js" onclick="Funcion(portfolio)"></script>
+            </div>
+            </section>
     
+
+
+        <section id="Formación_Académica">
+            <article id="tab2"></article>
+
+        <h2>Formación Académica</h2>
+        <div class="lista_formacionacademica">
+
+            <div class="Maestría">
+                <h3>Magíster en Escritura y Alfabetización</h3>
+                <h4>2022 - Universidad Nacional de La Plata, La Plata.</h4>
+                </div>
+
+             <div class="Universitario">
+                <h3>Ilustradora Profesional</h3>
+                <h4>2020 - Escuela de Artes Visuales Lino Enea Spilimbergo (ESAV), Bahía Blanca</h4>
+                <a href="http://www.esav.edu.ar/v3/index.php/carreras/ilustracion"> Conoce más sobre la carrera</a> 
+             </div> 
+
+            <div class="Secundario">
+                <h3>Bachiller con Orientación Docente</h3>
+                <h4>2013 - Instituto Maria Auxiliadora, Bahía Blanca</h4>
+            </div>
+        </divclass>
+        </section>
+
+
+
+        <section id="Experiencia">
+            <article id="tab3"></article>
+
+            <h2>Experiencia laboral</h2>
+
+            <div class="lista_experienciaLaboral">
+
+                <div class="Freelance">
+                    <h3>Ilustradora Freelance</h3>
+                    <h4>2023 | Virtual y presencial en Bahía Blanca</h4>
+                    <p>Este año comienzo dedicandome a lo que más me apasiona que es el acompañar<br/>
+                        y asistir a los pequeños emprendimientos en el branding de su marca. <br/>
+                    También realizó según tus necesidades todo tipo de material gráfico, así sea <br/>
+                    para redes sociales o merchandising.</p>
+                </div>
+
+                <div class="Cooperativa_Apícola">
+                    <h3>Ilustradora para Cooperativa Apícola Pampero</h3>
+                    <h4>2021-2022 | Cooperativa Apícola Pampero, Bahía Blanca</h4>
+                    <a href="https://cooperativapampero.coop/"> Conoce más sobre el proyecto</a>
+                    <p>Fui encargada de diseñar el branding de los productos, el diseño del packaging<br/>
+                         y manejar las redes de comunicación de la Cooperativa, creando todo el <br/>
+                         material gráfico utilizado (historias de instagram, banners, publicaciones en <br/>
+                         redes sociales como Facebook, instagram y linkedin</p>
+                </div>
+    
+                <div class="Clases_particulares">
+                    <h3>Clases particulares de ilustración</h3>
+                    <h4>2015-2020 | Bahía Blanca</h4>
+                    <p>Clases de ilustración para infanto-juveniles dictadas en distintos centros<br/>
+                         culturales de la ciudad</p>
+                </div>
+    
+            </divclass>
+            </section>
+              
+
+
+        <section id="Contacto">
+
+            <article id="tab4">
+
+            <h2>¡Contactame!</h2>
+
+            <form action="">
+                <div>
+                    <label for="">Nombre</label>
+                     <input type="text"
+                     placeholder= "Escribe tu Nombre y Apellido (Opcional)">
+                 </div>
+
+                 <div>
+                    <label for="">Asunto</label>
+                     <input type="text"
+                     placeholder="Escribe el motivo por el cuál te contactas">
+                 </div>
+
+                 <div>
+                    <label for="">Mensaje</label>
+                     <textarea name="" id="" cols="30" rows="10"></textarea>
+                 </div>
+
+                 <div>
+                    <button>Enviar</button>
+                 </div>
+            </form>
+        </article>
+        </section>
+    </main>
+
+
+
+    <footer>
+
+        <div class="container__footer">
+            <div class="box__footer">
+             <div class="logo">
+                <img src="https://marloesdevries.com/wp-content/uploads/2022/04/marloes-de-vries-logo-face_400-287x300.png" alt="">
+                </div>
+
+                <div class="presentacion">
+                    <p>¡Hola! Mi nombre es Marloe y soy ilustradora, escritora y artista.
+                        Contactame y trabajaremos juntos para que tu idea se vuelva realidad.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="https://www.youtube.com/marloesdevries"><i class="fab fa-youtube"></i> Youtube</a>
+                <a href="https://www.instagram.com/marloesdevee/"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2023  <b>MARLOES DE VRIES</b></p>
+        </div>
+    </footer>
+   
+   
 </body>
 </html>
